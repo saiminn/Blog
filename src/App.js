@@ -5,17 +5,17 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <Router>
     <div className="App">
-     <Helmet>
+    {/*  <Helmet>
                 <meta charSet="utf-8" />
                 <title>SM's Blog</title>
                 <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+            </Helmet> */}
       <Navbar />
       <div className="content">
         <Switch>
