@@ -1,19 +1,22 @@
 {
-  "posts": [
+  "blogs": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "saijf",
+      "body": "ajfalk",
+      "author": "ahfa",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Hello",
+      "body": "Love",
+      "author": "fjafjmario",
+      "id": 3
+    },
+    {
+      "title": "saiminn",
+      "body": "faf",
+      "author": "ahfa",
+      "id": 4
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
